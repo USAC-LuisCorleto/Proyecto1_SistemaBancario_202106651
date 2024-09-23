@@ -8,7 +8,7 @@
 Este proyecto permite la creación y gestión de un sistema bancario basado en bases de datos SQL. El sistema se centra en un banco ficticio denominado Banco JP Morgan, que replica las operaciones de grandes bancos en Guatemala. El repositorio incluye varios componentes clave, tales como el diseño del modelo de datos y la normalización de tablas todo dentro de un contexto realista y práctico. A través de estos elementos, el proyecto ofrece una experiencia integral en el desarrollo de un sistema bancario.
 # Definición del sistema
 Banco JP Morgan es un banco ficticio que ofrece una amplia gama de servicios financieros, incluyendo cuentas de ahorro, préstamos, tarjetas de crédito y débito, además de servicios de pago y transferencias. El banco tiene presencia en todo el país y cuenta con una amplia red de sucursales y agencias que permiten ofrecer servicios tanto en áreas urbanas como rurales.
-Enlaces:
+- Enlaces:
     <ul>
        <li><a href="https://github.com/USAC-LuisCorleto/Proyecto1_SistemaBancario_202106651/blob/main/docs/An%C3%A1lisis%20de%20caso.md" target="_blank">:arrow_right: Análisis de caso</a></li>
     </ul>

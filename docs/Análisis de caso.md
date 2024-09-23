@@ -2,69 +2,73 @@
 
 ## Tablas y campos
 Identificación de las tablas con sus campos respectivos.
-### Clientes
-**ID** - Identificador único (Cliente).
-**Nombre** - Nombre del cliente.
-**Apellido** - Apellido del cliente.
-**Número de cuenta** - Número de cuenta bancaria del cliente.
-**Tipo de cuenta** - Tipo de cuenta bancaria del cliente.
-**Saldo** - Monto monteario en la cuenta.
-**Teléfono** - Número telefónico del cliente.
-### Transacciones
-**ID Transacción** - Identificador único (Transacción).
-**ID Cliente** - Identificador único (Cliente).
-**Número de cuenta** - Número de cuenta bancaria del cliente.
-**Tipo de transacción** - Tipo de transacción.
-**Monto** - Monto monetario de la transacción.
-**Fecha** - Fecha en la que se realizó la transacción.
-**Hora** - Hora en la que se realizó la transacción.
-**Descripción** - Descripción corta acerca de la transacción.
-**Sucursal/Agencia** - Sucursal/Agencia emisora.
-### Préstamos
-**ID Préstamo** - Identificador único (Préstamo).
-**ID Cliente** - Identificador único (Cliente).
-**Monto del préstamo** - Monto monetario del préstamo.
-**Tasa de interés** - Tasa de intereses aplicada al préstamo.
-**Fecha de desembolso** - Fecha de distribución a los destinatarios.
-**Fecha de vencimiento** - Fecha en la que se debe liquidar el préstamo.
-**Saldo pendiente** - Saldo pendiente.
-**Estado del préstamo** - Estado en el que se encuentra el préstamo.
-### Tarjetas de crédito
-**ID Tarjeta** - Identificador único (Tarjeta de crédito).
-**ID Cliente** - Identificador único (Cliente).
-**Número de tarjeta** - 16 números de la tarjeta de crédito.
-**Límite de crédito** - Límite máximo de crédito.
-**Saldo Actual** - Saldo pendiente en la tarjeta.
-**Fecha de emisión** - Fecha en la que se emitió la tarjeta.
-**Fecha de expiración** - Fecha en la que expira la tarjeta.
-**Estado** - Estado de la tarjeta.
-**Fecha de corte** - Fecha en la que se genera el estado de cuenta de la tarjeta.
-**Día del ciclo** - Día del mes en que se cierra el ciclo de facturación.
-### Sucursales/Agencias
-**ID** - Identificador único (Sucursal/Agencia).
-**Nombre** - Nombre de la sucursal o agencia.
-**Tipo** - Sucursal o agencia.
-**Departamento** - Departamento en donde se encuentra la sucursal/agencia.
-**Municipio** - Municipio en donde se encuentra la sucursal/agencia.
-**Dirección** - Dirección de la ubicación de la sucursal/agencia.
-**Código postal** - Código postal del área.
-**Teléfono** - Teléfono de la agencia.
-**Horario de atención** - Horario de atención al cliente.
-**Número de empleados** - Número de empleados en la sucursal/agencia.
-**Servicios disponibles** -Servicios que ofrecen la sucursal/agencia.
-### Empleados
-**ID** - Identificado único (Empleado).
-**Nombre** - Nombre del empleado.
-**Apellido** - Apellido del empleado.
-**Rol** - Posición ejecutiva del empleado.
-**Departamento** - Departamento de la empresa en la que se está asignado.
-**Sucursal/Asignación** Sucursal o agencia en la que está asignado.
-**Teléfono** - Número de teléfono.
-**Fecha de contratación** - Fecha en la que el empleado fue contratado.
-**Salario** - Salario del empleado.
-**Horario de trabajo** - Horario laboral del empleado.
 
-## Tablas y sus atributos
+### Clientes
+- **ID** - Identificador único (Cliente).
+- **Nombre** - Nombre del cliente.
+- **Apellido** - Apellido del cliente.
+- **Número de cuenta** - Número de cuenta bancaria del cliente.
+- **Tipo de cuenta** - Tipo de cuenta bancaria del cliente.
+- **Saldo** - Monto monetario en la cuenta.
+- **Teléfono** - Número telefónico del cliente.
+
+### Transacciones
+- **ID Transacción** - Identificador único (Transacción).
+- **ID Cliente** - Identificador único (Cliente).
+- **Número de cuenta** - Número de cuenta bancaria del cliente.
+- **Tipo de transacción** - Tipo de transacción.
+- **Monto** - Monto monetario de la transacción.
+- **Fecha** - Fecha en la que se realizó la transacción.
+- **Hora** - Hora en la que se realizó la transacción.
+- **Descripción** - Descripción corta acerca de la transacción.
+- **Sucursal/Agencia** - Sucursal/Agencia emisora.
+
+### Préstamos
+- **ID Préstamo** - Identificador único (Préstamo).
+- **ID Cliente** - Identificador único (Cliente).
+- **Monto del préstamo** - Monto monetario del préstamo.
+- **Tasa de interés** - Tasa de intereses aplicada al préstamo.
+- **Fecha de desembolso** - Fecha de distribución a los destinatarios.
+- **Fecha de vencimiento** - Fecha en la que se debe liquidar el préstamo.
+- **Saldo pendiente** - Saldo pendiente.
+- **Estado del préstamo** - Estado en el que se encuentra el préstamo.
+
+### Tarjetas de crédito
+- **ID Tarjeta** - Identificador único (Tarjeta de crédito).
+- **ID Cliente** - Identificador único (Cliente).
+- **Número de tarjeta** - 16 números de la tarjeta de crédito.
+- **Límite de crédito** - Límite máximo de crédito.
+- **Saldo Actual** - Saldo pendiente en la tarjeta.
+- **Fecha de emisión** - Fecha en la que se emitió la tarjeta.
+- **Fecha de expiración** - Fecha en la que expira la tarjeta.
+- **Estado** - Estado de la tarjeta.
+- **Fecha de corte** - Fecha en la que se genera el estado de cuenta de la tarjeta.
+- **Día del ciclo** - Día del mes en que se cierra el ciclo de facturación.
+
+### Sucursales/Agencias
+- **ID** - Identificador único (Sucursal/Agencia).
+- **Nombre** - Nombre de la sucursal o agencia.
+- **Tipo** - Sucursal o agencia.
+- **Departamento** - Departamento en donde se encuentra la sucursal/agencia.
+- **Municipio** - Municipio en donde se encuentra la sucursal/agencia.
+- **Dirección** - Dirección de la ubicación de la sucursal/agencia.
+- **Código postal** - Código postal del área.
+- **Teléfono** - Teléfono de la agencia.
+- **Horario de atención** - Horario de atención al cliente.
+- **Número de empleados** - Número de empleados en la sucursal/agencia.
+- **Servicios disponibles** - Servicios que ofrece la sucursal/agencia.
+
+### Empleados
+- **ID** - Identificador único (Empleado).
+- **Nombre** - Nombre del empleado.
+- **Apellido** - Apellido del empleado.
+- **Rol** - Posición ejecutiva del empleado.
+- **Departamento** - Departamento de la empresa en la que está asignado.
+- **Sucursal/Asignación** - Sucursal o agencia en la que está asignado.
+- **Teléfono** - Número de teléfono.
+- **Fecha de contratación** - Fecha en la que el empleado fue contratado.
+- **Salario** - Salario del empleado.
+- **Horario de trabajo** - Horario laboral del empleado.
 
 ## Tablas y sus atributos
 

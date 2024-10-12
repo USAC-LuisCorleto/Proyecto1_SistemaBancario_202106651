@@ -184,6 +184,26 @@ No cumple con la segunda forma normal, el atributo Tipo (Sucursal/Agencia) puede
 ### Tabla Empleados
 No cumple con la segunda forma normal, el atributo rol puede ser otra tabla, tampoco cumple el atributo departamento y sucursal.
 
+## Tercera forma normal
+
+### Tabla Clientes
+Tampoco cumple la 3FN. Tipo de cuenta depende de la cuenta, no del cliente, así que movemos eso a otra tabla para eliminar dependencias transitivas.
+
+### Tabla Transacciones
+Cumple con la 3FN. Ya movimos Tipo de transacción a otra tabla en la 2FN, así que todo bien.
+
+### Tabla Préstamos
+Cumple con la 3FN. Después de separar Estado del Préstamo, ya no hay dependencias transitivas.
+
+### Tabla Tarjetas de Crédito
+Cumple con la 3FN también. Al mover Estado de la tarjeta en la 2FN, ya no hay problema acá.
+
+### Tabla Sucursales/Agencias
+No cumple. Municipio depende de Departamento, así que necesitamos separarlas en tablas diferentes para eliminar la dependencia transitiva.
+
+### Tabla Empleados
+No cumple. Departamento depende de Sucursal, así que habría que mover Departamento a otra tabla para eliminar esa dependencia.
+
 ## Tablas normalizadas
 ### Tabla Clientes
 | Columna   | Descripción                     | Tipo   | Tipo SQL        |

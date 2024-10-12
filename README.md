@@ -13,6 +13,9 @@ Banco JP Morgan es un banco ficticio que ofrece una amplia gama de servicios fin
        <li><a href="https://github.com/USAC-LuisCorleto/Proyecto1_SistemaBancario_202106651/blob/main/docs/An%C3%A1lisis%20de%20caso.md" target="_blank">:arrow_right: Análisis de caso</a></li>
     </ul>
     <ul>
+       <li><a href="https://github.com/USAC-LuisCorleto/Proyecto1_SistemaBancario_202106651/blob/main/docs/Manual%20t%C3%A9cnico.md" target="_blank">:arrow_right: Manual Técnico</a></li>
+    </ul>
+    <ul>
        <li><a href="https://github.com/USAC-LuisCorleto/Proyecto1_SistemaBancario_202106651/blob/main/sql/jpmorgan.sql" target="_blank">:arrow_right: Script SQL</a></li>
     </ul>
     <ul>
